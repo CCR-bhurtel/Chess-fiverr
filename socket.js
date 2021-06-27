@@ -63,6 +63,10 @@ function socketInit(io) {
             }
         })
 
+        socket.on("resign", function (data) {
+            io.to(room).emit(`resign`);
+        })
+
         function gameOverUpdate(data) {
             let roomData = {}
             console.log('data.roomData:::::::::::::::', data.roomData);

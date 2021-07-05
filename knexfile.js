@@ -6,7 +6,7 @@ module.exports = {
       host: process.env.DATABASE_HOST || 'localhost',
       database: process.env.DATABASE_NAME || 'chess-new',
       user: process.env.DATABASE_USER || 'postgres',
-      password: process.env.DATABASE_ACCESS_KEY || 'test@123',
+      password: process.env.DATABASE_ACCESS_KEY || 'Test@123',
     },
     migrations: {
       directory: './db/migrations'
@@ -24,7 +24,7 @@ module.exports = {
       host: process.env.DATABASE_HOST || 'localhost',
       database: process.env.DATABASE_NAME || 'chess-new',
       user: process.env.DATABASE_USER || 'postgres',
-      password: process.env.DATABASE_ACCESS_KEY || 'test@123',
+      password: process.env.DATABASE_ACCESS_KEY || 'Test@123',
     },
     migrations: {
       directory: './db/migrations'
@@ -42,7 +42,7 @@ module.exports = {
       host: process.env.DATABASE_HOST || 'localhost',
       database: process.env.DATABASE_NAME || 'chess-new',
       user: process.env.DATABASE_USER || 'postgres',
-      password: process.env.DATABASE_ACCESS_KEY || 'test@123',
+      password: process.env.DATABASE_ACCESS_KEY || 'Test@123',
     },
     migrations: {
       directory: './db/migrations'
